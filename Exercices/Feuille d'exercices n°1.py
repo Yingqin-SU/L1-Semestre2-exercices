@@ -10,7 +10,7 @@ def exercice_1():
             pass
         elif 100 < event.x < 400 and 100 < event.y < 300:
             color = 'blue' if color == 'red' else 'red'
-            canvas.itemconfig(rectangle, fill = color)
+            canvas.itemconfig(rectangle, fill=color)
         else:
             color = None
     
